@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather&display=swap');
+
+body {
+ background-color: hotpink; 
+max-width: 1200px;
+margin: auto;
+font-family: 'Merriweather', serif;
+}
+
+header { 
+    width: 300px;
+    text-align: center;
+    position: fixed;
+    top: 50px; 
+    left: 25px; 
+    font-family: 'Abril Fatface', cursive;
+}
+
+header:hover {
+    background-color: aqua;
+}
+
+
+
+nav {
+    width: 300px; 
+    position: fixed;
+    top: 300px; 
+    left: 25px; 
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;  
+}
+
+nav h5:hover {
+    background-color: yellow;
+}
+
+main { 
+    width: 650px; 
+    margin-left: 500px;
+}
+
+section {
+  border: 1px darkblue solid;
+  margin-top: 25px;
+  text-align: center;
+  padding: 15px; 
+}
+
+section img {
+    border: 1px darkblue solid;
+    padding: 15px; 
+}
+
+section img:hover {
+    background-color: hotpink;
+    opacity: 0.5;
+}
+
+section p {
+    font-family: 'Abril Fatface', cursive;
+}
+
+footer {    
+    width: 300px; 
+    position: fixed;
+    bottom: 50px; 
+    left: 25px; 
+}
+
+#splashgif {
+    width: 50%; 
+    margin: auto; 
+    text-align: center;
+    margin-top: 25%; 
+}
+
+#splashgif:hover {
+    border: 1px darkblue dotted;
+    background-color: aqua;
+    opacity: 0.5; 
+}
+
+
+
