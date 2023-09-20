@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather&display=swap');
 
 body {
- background-color: hotpink; 
+ background-color: darkgreen; 
 max-width: 1200px;
 margin: auto;
 font-family: 'Merriweather', serif;
@@ -35,7 +35,11 @@ nav {
 
 a {
     text-decoration: none;
-    color: darkblue;  
+    color: black;  
+}
+
+nav h5 {
+    font-size: 16pt;
 }
 
 nav h5:hover {
